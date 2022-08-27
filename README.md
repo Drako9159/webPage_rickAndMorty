@@ -1,1 +1,1 @@
-"# webPage for consult rest api Rick and Morty" 
+# webPage for consult rest api Rick and Morty
