@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import Character from "./Character";
-
+import style from "./CharacterList.module.css";
+//d-flex justify-content-between align-items-center
 function NavPage(props) {
   return (
-    <header className="d-flex justify-content-between align-items-center">
+    <header className={style.header}>
       <p>Page: {props.page}</p>
       <button
-        className="btn btn-primary btn-sm "
+        className={style.btn}
         onClick={() => {
+           
           props.setPage(props.page + 1);
         }}
       >
@@ -34,7 +36,7 @@ function CharacterList() {
   }, [page]);
 
   return (
-    <div className="container bg-danger">
+    <div className={style.container}>
       <NavPage page={page} setPage={setPage} />
 
       {isLoading ? (
@@ -48,6 +50,7 @@ function CharacterList() {
           ))}
         </div>
       )}
+      <NavPage page={page} setPage={setPage} />
     </div>
   );
 }

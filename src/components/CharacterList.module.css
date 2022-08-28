@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto 20px;
+  background: linear-gradient(
+    80deg,
+    rgb(0, 94, 122) 0%,
+    rgb(0, 135, 177) 35%,
+    rgb(0, 74, 97) 100%
+  );
+  width: 90%;
+  border-radius: 20px;
+  padding: 20px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header p{
+    font-weight: bold;
+
+}
+.btn{
+    border-style: none;
+    background-color:rgb(0, 145, 189);
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgb(0, 193, 252);
+    color: white;
+}
+.btn2{
+    border-style: none;
+    background-color:rgb(0, 145, 189);
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgb(0, 193, 252);
+    color: white;
+}
+.btn:hover{
+    background-color:rgb(0, 113, 148);
+}
+
