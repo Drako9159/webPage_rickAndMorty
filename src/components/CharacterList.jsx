@@ -31,6 +31,7 @@ function CharacterList() {
       const data = await response.json();
       setCharacters(data.results);
       setIsLoading(false);
+      console.log(data.results);
     }
     restApi();
   }, [page]);
