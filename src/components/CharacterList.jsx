@@ -9,7 +9,6 @@ function NavPage(props) {
       <button
         className={style.btn}
         onClick={() => {
-           
           props.setPage(props.page + 1);
         }}
       >
@@ -31,7 +30,7 @@ function CharacterList() {
       const data = await response.json();
       setCharacters(data.results);
       setIsLoading(false);
-      console.log(data.results);
+  
     }
     restApi();
   }, [page]);
