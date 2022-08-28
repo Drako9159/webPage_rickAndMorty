@@ -13,17 +13,13 @@ export default function About() {
     <div className={style.container}>
       <ul>
         <li>
-          <li>
-            <h3>By Antonio Jaramillo</h3>
-          </li>
-          <li>
-            <a href={about.github} target="_blank">
-              <img src={gitHub} />
-            </a>
-            <a href={about.twitter} target="_blank">
-              <img src={twitterColor} />
-            </a>
-          </li>
+          <h3>By Antonio Jaramillo</h3>
+          <a href={about.github} target="_blank">
+            <img src={gitHub} />
+          </a>
+          <a href={about.twitter} target="_blank">
+            <img src={twitterColor} />
+          </a>
         </li>
       </ul>
       <ul>
