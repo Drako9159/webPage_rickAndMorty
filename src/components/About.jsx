@@ -1,5 +1,5 @@
 import twitterColor from "../assets/twitter-color.png";
-import gitHub from "../assets/gitHub-black.png";
+import gitHub from "../assets/github.png";
 import style from "./About.module.css";
 
 const about = {
