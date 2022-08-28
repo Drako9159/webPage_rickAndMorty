@@ -7,6 +7,6 @@
     rgb(0, 46, 105) 100%
   );
 }
-.container h1{
+.container h1, .container h2{
   text-shadow: 0 2px 2px black;
 }

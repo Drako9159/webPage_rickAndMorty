@@ -9,7 +9,8 @@ function App() {
     <div className={
       style.container
     }>
-      <h1 className="text-center display-1 py-4">Rick and Morty</h1>
+      <h1 className="text-center display-1 py-1">Rick and Morty</h1>
+      <h2 className="text-center display-6 py-1">Characters</h2>
       <CharacterList/>
       <About/>
       
